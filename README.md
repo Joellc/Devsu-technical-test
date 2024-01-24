@@ -23,11 +23,11 @@ Se configuro la base de datos y los 2 microservicios en un entorno Docker utiliz
 
 Ejecuta Docker compose: en la terminal de tu proyecto ejecuta el siguiente comando para iniciar los servicios de tu archivo docker-compose.yml
 ```
-docker compose up
+docker compose up --build
 ```
 Si no tienes los permisos, utiliza el comando sudo para ejecutar el comando como administrador
 ```
-sudo docker compose up
+sudo docker compose up --build
 ```
 Estos es lo que se cargara en el docker
 - **MySql**: `Puerto` 3306
