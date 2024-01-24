@@ -65,7 +65,7 @@ Para probar los endpoints de tu API utilizando Postman  debes importar la colecc
 }
 ```
 
-- **POST Create Cliente Mairanela Montalvo**
+- **POST Create Cliente c**
   - `http://localhost:8088/clientes`
  ```
 {
@@ -97,7 +97,10 @@ Para probar los endpoints de tu API utilizando Postman  debes importar la colecc
 
 ## CUENTA
 
-- **POST Create account type ahorros**
+- **POST Create account type ahorros for Jose lema**
+  - `http://localhost:8089/cuentas`
+
+- **POST Create account type corriente for Mairanela Montalvo**
   - `http://localhost:8089/cuentas`
 
 - **POST Create account type corriente**
@@ -120,10 +123,16 @@ Para probar los endpoints de tu API utilizando Postman  debes importar la colecc
 
 ## Movimiento
 
-- **POST Create Crédito**
+- **POST Create Credito Jose Lema**
   - `http://localhost:8089/movimientos`
 
-- **POST Create Débito**
+- **POST Create Débito Jose Lema**
+  - `http://localhost:8089/movimientos`
+
+- **POST Create Credito  Mairanela Montalvo**
+  - `http://localhost:8089/movimientos`
+
+- **POST Create Débito  Mairanela Montalvo**
   - `http://localhost:8089/movimientos`
 
 - **GET Find all**

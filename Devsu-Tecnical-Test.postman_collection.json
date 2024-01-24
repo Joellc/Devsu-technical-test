@@ -235,7 +235,7 @@
 					"response": []
 				},
 				{
-					"name": "Create account corriente Marianela Montalvo",
+					"name": "Create account type corriente Marianela Montalvo",
 					"request": {
 						"method": "POST",
 						"header": [],
