@@ -16,7 +16,7 @@ Se elaboran dos microservicios “technical-test” y “technical-test-account-
 Configuración
 
 ## 1.	Configuración de la base de datos 
-Se configuro la base de datos y los 2 microservicios en un entorno Docker utilizando un archivo docker-compose.yml que se encuentra en la raíz del reposotorio
+Se configuro la base de datos y los 2 microservicios en un entorno Docker utilizando un archivo docker-compose.yml que se encuentra en la raíz del repositorio
 ```
 ./docker-compose.yml
 ```
