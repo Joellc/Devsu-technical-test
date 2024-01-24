@@ -52,9 +52,35 @@ Para probar los endpoints de tu API utilizando Postman  debes importar la colecc
 
 - **POST Create Cliente joseLema**
   - `http://localhost:8088/clientes`
+```
+  {
+  "nombre": "Jose lema",
+  "genero": "MASCULINO",
+  "edad": 18,
+  "identificacion": "12345678987",
+  "direccion": "Otavalo sn y principal",
+  "telefono": "098254785",
+  "contrasena":"1234",
+  "estado":true
+}
+```
 
 - **POST Create Cliente Mairanela Montalvo**
   - `http://localhost:8088/clientes`
+ ```
+ {
+ {
+  "nombre": "Marianela Montalvo",
+  "genero": "FEMENINO",
+  "edad": 32,
+  "identificacion": "12345678988",
+  "direccion": "Amazonas y NNUU",
+  "telefono": "097548965",
+  "contrasena":"5678",
+  "estado":true
+}
+}
+```
 
 - **GET Find all**
   - `http://localhost:8088/clientes`
