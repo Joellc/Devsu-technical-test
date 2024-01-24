@@ -1,0 +1,33 @@
+version: "3.9"
+services:
+  testdevsu-db:
+    image: mysql:8.0.28
+    ports:
+      - "3306:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: TestD4v3!
+      MYSQL_DATABASE: basedatos
+    volumes:
+      - ./path/to/sql/script:/docker-entrypoint-initdb.d
+
+  technical-test:
+    build: ./technical-test
+    ports:
+      - "8088:8088"
+    depends_on:
+      - testdevsu-db
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:mysql://testdevsu-db:3306/basedatos
+      SPRING_DATASOURCE_USERNAME: root
+      SPRING_DATASOURCE_PASSWORD: TestD4v3!
+
+  technical-test-account-management:
+    build: ./technical-test-account-management
+    ports:
+      - "8089:8089"
+    depends_on:
+      - testdevsu-db
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:mysql://testdevsu-db:3306/basedatos
+      SPRING_DATASOURCE_USERNAME: root
+      SPRING_DATASOURCE_PASSWORD: TestD4v3!

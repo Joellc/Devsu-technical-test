@@ -53,7 +53,7 @@ Para probar los endpoints de tu API utilizando Postman  debes importar la colecc
 - **POST Create Cliente joseLema**
   - `http://localhost:8088/clientes`
 ```
-  {
+ {
   "nombre": "Jose lema",
   "genero": "MASCULINO",
   "edad": 18,
@@ -68,8 +68,7 @@ Para probar los endpoints de tu API utilizando Postman  debes importar la colecc
 - **POST Create Cliente Mairanela Montalvo**
   - `http://localhost:8088/clientes`
  ```
- {
- {
+{
   "nombre": "Marianela Montalvo",
   "genero": "FEMENINO",
   "edad": 32,
@@ -78,7 +77,6 @@ Para probar los endpoints de tu API utilizando Postman  debes importar la colecc
   "telefono": "097548965",
   "contrasena":"5678",
   "estado":true
-}
 }
 ```
 
